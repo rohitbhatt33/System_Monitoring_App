@@ -1,12 +1,12 @@
 # 🚀 System Monitoring App (Flask + Docker + Kubernetes + HPA)
 
-A Production-Ready Cloud-Native System Monitoring Application built using:
+A Production-Ready System Monitoring Application built using:
 
 - 🐍 Python (Flask + psutil)
 - 🐳 Docker
 - ☸️ Kubernetes
 - 📈 Horizontal Pod Autoscaler (HPA)
-- ☁️ AWS (ECR + EKS ready)
+
 
 ---
 
@@ -63,7 +63,7 @@ User → Kubernetes Service → Deployment → Pods (ReplicaSet)
 
 ```bash
 git clone <your-repo-url>
-cd cloud-native-monitoring-app
+cd system-monitoring-app
 
 pip install -r requirements.txt
 python app.py
@@ -184,16 +184,15 @@ Pods automatically scale based on load 🚀
 # 📂 Project Structure
 
 ```
-cloud-native-monitoring-app/
-│
+System-monitoring-app/
+│── templates
+    |── index.html
 ├── app.py
 ├── requirements.txt
 ├── Dockerfile
 ├── k8s/
 │   ├── deployment.yml
 │   ├── service.yml
-│   ├── hpa.yml
-│
 └── README.md
 ```
 
@@ -215,7 +214,7 @@ After completing this project, you understand:
 
 # 💼 Interview Explanation (Short Version)
 
-"I built a cloud-native monitoring app using Flask, containerized it with Docker, deployed it to Kubernetes, implemented health probes and HPA, and validated autoscaling through stress testing. The system scales automatically based on CPU utilization and ensures high availability."
+"I built a system- monitoring app using Flask, containerized it with Docker, deployed it to Kubernetes, implemented health probes and HPA, and validated autoscaling through stress testing. The system scales automatically based on CPU utilization and ensures high availability."
 
 ---
 
